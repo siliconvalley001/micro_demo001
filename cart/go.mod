@@ -1,4 +1,4 @@
-module cart
+module github.com/siliconvalley001/micro_demo001/cart
 
 go 1.15
 
