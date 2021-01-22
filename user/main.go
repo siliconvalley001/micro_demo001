@@ -1,0 +1,30 @@
+package main
+
+import (
+	"github.com/micro/go-micro/v2"
+	_"user/model"
+
+
+	handler1 "user/handler"
+
+	"fmt"
+	ex "user/proto"
+)
+
+func main() {
+
+	// Create service
+	srv:=micro.NewService(
+		micro.Name("micro.user"),
+		micro.Version("latest"),
+		)
+	srv.Init()
+	// Register handler
+	//pb.RegisterUserHandler(srv.Server(), new(handler.User))
+
+	ex.RegisterUserHandler(srv.Server(),new(handler1.Handler))
+	// Run service
+	if err := srv.Run(); err != nil {
+		fmt.Println(err)
+	}
+}
