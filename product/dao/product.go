@@ -1,6 +1,6 @@
 package dao
 
-import "product/model"
+import "github.com/siliconvalley001/micro_demo001/product/model"
 
 func (d *Dao)FindProductById(id int64)(product *model.Product,err error){
 	product=&model.Product{}

@@ -1,6 +1,6 @@
 package dao
 
-import "category/model"
+import "github.com/siliconvalley001/micro_demo001/category/model"
 
 func (d *Dao)InitTable()error{
 	return d.engine.CreateTable(&model.Category{}).Error

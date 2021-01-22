@@ -3,7 +3,7 @@ package model
 import (
 	"github.com/jinzhu/gorm"
 	_"github.com/go-sql-driver/mysql"
-	"user/setting"
+	"github.com/siliconvalley001/micro_demo001/user/setting"
 	"fmt"
 )
 var (

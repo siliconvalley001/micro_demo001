@@ -1,7 +1,7 @@
 package model
 
 import (
-	"category/common"
+	"github.com/siliconvalley001/micro_demo001/category/common"
 	"github.com/jinzhu/gorm"
 	_"github.com/go-sql-driver/mysql"
 	"fmt"

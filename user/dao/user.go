@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"user/model"
+	"github.com/siliconvalley001/micro_demo001/user/model"
 )
 
 func (d *Dao) InitUserTable() error {

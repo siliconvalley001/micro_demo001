@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"category/common"
-	"category/model"
-	ex "category/proto"
-	"category/service"
+	"github.com/siliconvalley001/micro_demo001/category/common"
+	"github.com/siliconvalley001/micro_demo001/category/model"
+	ex "github.com/siliconvalley001/micro_demo001/category/proto"
+	"github.com/siliconvalley001/micro_demo001/category/service"
 	"context"
 	"log"
 )

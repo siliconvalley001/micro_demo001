@@ -6,10 +6,11 @@ import (
 	opentracing2 "github.com/micro/go-plugins/wrapper/trace/opentracing/v2"
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/opentracing/opentracing-go"
-	"product/common"
-	"product/config"
-	"product/handler"
+	"github.com/siliconvalley001/micro_demo001/product/common"
+	"github.com/siliconvalley001/micro_demo001/product/config"
+	"github.com/siliconvalley001/micro_demo001/product/handler"
 	"log"
+	ex "github.com/siliconvalley001/micro_demo001/product/proto"
 
 
 
@@ -53,7 +54,7 @@ func main() {
 	)
 
 	// Register handler
-	pb.RegisterProductHandler(srv.Server(), new(handler.Product))
+	ex.RegisterProductHandler(srv.Server(), new(handler.Product))
 
 	// Run service
 	if err := srv.Run(); err != nil {

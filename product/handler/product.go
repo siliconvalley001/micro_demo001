@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"product/common"
-	"product/model"
-	"product/service"
-	ex "product/proto"
+	"github.com/siliconvalley001/micro_demo001/product/common"
+	"github.com/siliconvalley001/micro_demo001/product/model"
+	"github.com/siliconvalley001/micro_demo001/product/service"
+	ex "github.com/siliconvalley001/micro_demo001/product/proto"
 	"context"
 )
 

@@ -1,11 +1,11 @@
 package handler
 
 import (
-	"cart/common"
-	"cart/model"
-	"cart/service"
+	"github.com/siliconvalley001/micro_demo001/cart/common"
+	"github.com/siliconvalley001/micro_demo001/cart/model"
+	"github.com/siliconvalley001/micro_demo001/cart/service"
 	"context"
-	ex "cart/proto"
+	ex "github.com/siliconvalley001/micro_demo001/cart/proto"
 
 )
 

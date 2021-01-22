@@ -2,8 +2,8 @@ package handler
 
 import (
 	"context"
-	"user/model"
-	ex "user/proto"
+	"github.com/siliconvalley001/micro_demo001/user/model"
+	ex "github.com/siliconvalley001/micro_demo001/user/proto"
 )
 
 

@@ -1,6 +1,6 @@
 package service
 
-import "category/model"
+import "github.com/siliconvalley001/micro_demo001/category/model"
 
 func (s *Service_Category)AddCategory(cate *model.Category)(int64,error){
 	return s.dao.CreateCategory(cate)

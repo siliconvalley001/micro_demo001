@@ -1,6 +1,6 @@
 package service
 
-import "product/dao"
+import "github.com/siliconvalley001/micro_demo001/product/dao"
 
 type ServiceProduct struct {
 

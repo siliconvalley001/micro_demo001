@@ -1,6 +1,6 @@
 package service
 
-import "cart/model"
+import "github.com/siliconvalley001/micro_demo001/cart/model"
 
 func (c *ServiceCart)AddCart(cart *model.Cart)(int64,error){
 	return c.cart.CreateCart(cart)

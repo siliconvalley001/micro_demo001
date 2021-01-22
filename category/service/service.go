@@ -1,7 +1,7 @@
 package service
 
 import (
-	"category/dao"
+	"github.com/siliconvalley001/micro_demo001/category/dao"
 	"context"
 )
 

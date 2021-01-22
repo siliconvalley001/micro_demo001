@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"github.com/pkg/errors"
-	"user/model"
+	"github.com/siliconvalley001/micro_demo001/user/model"
 )
 
 func (s *Service_User) AddUser(user *model.User) (id int64, err error) {

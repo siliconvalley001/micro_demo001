@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"user/dao"
+	"github.com/siliconvalley001/micro_demo001/user/dao"
 )
 
 type Service_User struct {

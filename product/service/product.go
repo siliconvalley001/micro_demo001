@@ -1,6 +1,6 @@
 package service
 
-import "product/model"
+import "github.com/siliconvalley001/micro_demo001/product/model"
 
 func (s *ServiceProduct)AddProduct(product *model.Product)(int64,error){
 	return s.product.CreateProduct(product)

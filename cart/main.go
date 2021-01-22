@@ -1,9 +1,9 @@
 package main
 
 import (
-	"cart/common"
-	"cart/handler"
-	pb "cart/proto"
+	"github.com/siliconvalley001/micro_demo001/cart/common"
+	"github.com/siliconvalley001/micro_demo001/cart/handler"
+	pb "github.com/siliconvalley001/micro_demo001/cart/proto"
 	"github.com/micro/go-micro/v2"
 	"github.com/micro/go-micro/v2/logger"
 	"log"
