@@ -1,4 +1,4 @@
-module micro_demo
+module github.com/siliconvalley001/micro_demo001/micro_demo
 
 go 1.15
 

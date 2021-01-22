@@ -1,4 +1,4 @@
-module product
+module github.com/siliconvalley001/micro_demo001/product
 
 go 1.15
 

@@ -1,4 +1,4 @@
-module user
+module github.com/siliconvalley001/micro_demo001/user
 
 go 1.15
 

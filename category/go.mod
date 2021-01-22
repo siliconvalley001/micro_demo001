@@ -1,4 +1,4 @@
-module category
+module github.com/siliconvalley001/micro_demo001/category
 
 go 1.15
 
