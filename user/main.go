@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/micro/go-micro/v2"
-	_"user/model"
+	_"github.com/siliconvalley001/micro_demo001/user/model"
 
 
-	handler1 "user/handler"
+	handler1 "github.com/siliconvalley001/micro_demo001/user/handler"
 
 	"fmt"
-	ex "user/proto"
+	ex "github.com/siliconvalley001/micro_demo001/user/proto"
 )
 
 func main() {

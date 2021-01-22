@@ -16,7 +16,7 @@ func main() {
 	)
 
 	// Register handler
-	pb.RegisterCartApiHandler(srv.Server(), new(handler.CartApi))
+	//pb.RegisterCartApiHandler(srv.Server(), new(handler.CartApi))
 
 	// Run service
 	if err := srv.Run(); err != nil {
